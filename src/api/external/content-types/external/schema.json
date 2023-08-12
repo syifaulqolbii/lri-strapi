@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "externals",
+  "info": {
+    "singularName": "external",
+    "pluralName": "externals",
+    "displayName": "External"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skema": {
+      "type": "string",
+      "required": true
+    },
+    "judul": {
+      "type": "string",
+      "required": true
+    },
+    "ketua": {
+      "type": "string",
+      "required": true
+    },
+    "fakultas": {
+      "type": "string",
+      "required": true
+    },
+    "dana": {
+      "type": "string",
+      "required": true
+    },
+    "tahun": {
+      "type": "string",
+      "required": true
+    },
+    "link_kontrak": {
+      "type": "string",
+      "required": true
+    },
+    "laporan_akhir": {
+      "type": "string",
+      "required": true
+    },
+    "file_luaran": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
