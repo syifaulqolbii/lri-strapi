@@ -4,7 +4,8 @@
   "info": {
     "singularName": "external",
     "pluralName": "externals",
-    "displayName": "External"
+    "displayName": "External",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,8 @@
     },
     "judul": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": false
     },
     "ketua": {
       "type": "string",
